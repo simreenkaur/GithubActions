@@ -88,7 +88,7 @@ namespace GithubActionsLab
             double yy = double.Parse(y);
             double answer = double.Parse(x);
 
-            for(int i = 0; i < yy; i++){
+            for(int i = 1; i < yy; i++){
                 answer = answer * temp;
             }
             return answer;
